@@ -1,0 +1,39 @@
+
+#imglogo {
+    width: auto;
+    height: 50px;
+}
+
+form.cad {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: solid;
+    border-color: darkgray;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+#divform {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+div {
+    margin: 2px;
+}
+
+#msg {
+    visibility: hidden;
+    text-align: center;
+
+}
+
+#msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 5.5s;
+    animation: fadein 0.5s, fadeout 0.5s 5.5s;
+}
